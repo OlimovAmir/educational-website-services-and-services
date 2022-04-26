@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'TT Lakes';
-    src: url('/font/TTLakes-Thin.woff');
+    src: url('font/TTLakes-Thin.woff');
          
 }
 @font-face {
     font-family: 'TT Lakes2';
-    src: url('/font/TTLakes-Bold.woff');
+    src: url('font/TTLakes-Bold.woff');
 }
 
 @font-face {
     font-family: 'TT Lakes3';
-    src: url('/font/TTLakes-ExtraBold.woff');
+    src: url('font/TTLakes-ExtraBold.woff');
 }
 body{
     padding: 0px;
@@ -130,7 +130,7 @@ h1 {
     width: 175%;
 
     
-    background-image: url('/img/_MG_3223.png');
+    background-image: url('img/_MG_3223.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -161,9 +161,9 @@ section img {
     .header__block1 {
         display: none;
     }
-    .main__button6 {
+   /* .main__button6 {
         display: none;
-    }
+    }*/
     }
 @media screen and (max-width: 768px) { /* отображаем блок посли заданной ширины*/
    .header__block2__button1  img {
