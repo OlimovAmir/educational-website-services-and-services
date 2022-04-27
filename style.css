@@ -129,7 +129,7 @@ h1 {
     width: 175%;
 }
 .block_banner {
-    background: url('../block_1.3/img/_MG_3223.png');
+    background: url(./img/_MG_3223.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
