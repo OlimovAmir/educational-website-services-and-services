@@ -125,14 +125,16 @@ h1 {
 }
 .banner{
     position: relative;
-    margin-top: 3.5%;
+
     width: 175%;
 }
 .block_banner {
-    background-image: url('img/_MG_3223.png');
+    /*background-image: url('img/_MG_3223.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
     height: 100%;
+    /*border: 2px solid rgba(224, 26, 26, 0.884);*/
+    
 }
 
 
