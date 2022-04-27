@@ -17,7 +17,7 @@ body{
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color:rgb(238, 238, 241);
+    /*background-color:rgb(238, 238, 241);*/
 }
 .header__block1{
     display: flex;
@@ -129,7 +129,7 @@ h1 {
     width: 175%;
 }
 .block_banner {
-    background: url(./img/_MG_3223.jpg);
+    background-image: url(./img/_MG_3223.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
