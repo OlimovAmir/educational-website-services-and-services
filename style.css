@@ -123,17 +123,19 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
-
-.banner {
+.banner{
     position: relative;
     margin-top: 3.5%;
     width: 175%;
-
-    
-    background-image: url('img/_MG_3223.png');
+}
+.block_banner {
+    background-image: url('/img/_MG_3223.png');
     background-repeat: no-repeat;
     background-size: contain;
+    height: 100%;
 }
+
+
 
 h3 {
     font-family: 'TT Lakes';
@@ -216,7 +218,7 @@ span {
         flex-wrap: wrap;
         justify-content: none;
     } 
-    .banner {
+    .block_banner {
         position: relative;
         width: 320px;
         height: 230px;
