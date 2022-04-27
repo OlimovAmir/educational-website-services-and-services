@@ -23,23 +23,23 @@ body{
     display: flex;
     background-color: white;
 }
-.header__block1__item1{
+.header__item1{
     display: flex;
     padding: 2%;
     
 }
-.header__block1__item2{
+.header__item2{
     display: flex;
     padding: 2%;
     border-left: 2px solid #5555;
 }
-.header__block1__item3{
+.header__item3{
     display: flex;
     margin-left: auto;
     padding: 2%;
     border-right: 2px solid #5555;
 }
-.header__block1__item4{
+.header__item4{
     display: flex;
     padding: 2%;
 }
@@ -203,7 +203,7 @@ span {
 }
 
 @media screen and (max-width: 321px) {
-     .header__block1__item3 {
+     .header__item3 {
         display: none;
     } 
     h1 {
@@ -235,17 +235,17 @@ span {
     .header__block1{
         height: 70%;
     }
-    .header__block1__item1{
+    .header__item1{
         flex-grow: 1;
         justify-content: center;
         align-items: center;
     }
-    .header__block1__item2{
+    .header__item2{
         flex-grow: 1;
         justify-content: center;
         align-items: center;
     }
-    .header__block1__item4{
+    .header__item4{
         flex-grow: 1;
         justify-content: center;
         align-items: center;
