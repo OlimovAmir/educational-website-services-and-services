@@ -134,6 +134,7 @@ h1 {
     background-size: contain; */
     height: 100%;
     border: 2px solid rgba(224, 26, 26, 0.884);
+    z-index: 2;
     
 }
 
