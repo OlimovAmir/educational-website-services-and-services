@@ -90,22 +90,36 @@ h1 {
 
 .main {
     display: flex;
-    width: 1120px;
+    width: 100%;
     justify-content: space-between;
-    font-size: 2.7vh;
+    
+    overflow-x: scroll;
      
+}
+
+.main::-webkit-scrollbar{
+    background: transparent;
+}
+
+.main:hover::-webkit-scrollbar{
+    background-color: rgba(160, 155, 155, 0.849);
+    
+}
+.main:hover{
+    cursor: pointer;
 }
 
 .main .button{
     text-align: center;
-    
+    white-space: nowrap;
+    padding: 0.5%;
 }
 
 
 .button {
    padding: 0.5%;
    background-color: none;
-   
+   margin: 0px 0.5%;
    border-radius: 7px;
    border: 2px solid;
    border-color: transparent;
@@ -172,24 +186,11 @@ section img {
     vertical-align: 50%;
     
 }
-.wrapper{
-    overflow-x: auto;
-}
+
 @media screen and (min-width: 769px) { /* скрываем блок до заданной ширины*/
     .header__block1 {
         display: none;
-    }
-    .main{
-        width: auto;
-        overflow: hidden;
-        font-size: 2.4vh;
-    }
-    .main__button6{
-        display: none;
-    }
-   /* .main__button6 {
-        display: none;
-    }*/
+    }  
     }
 
 
@@ -202,17 +203,14 @@ section img {
     display: none;
 }
 .main{
-    width: auto;
-    overflow: hidden;
+      
     font-size: 2.1vh;
 }
-.main__button1 {
-    display: none;
+.main__button1{
+    background-color: transparent;
+    border: 2px solid;
+    border-color:transparent;
 }
-.main__button4 {
-    display: none;
-}
-
 
 .post p{
     font-size: calc(8px + 8 * (100vw/1120));
@@ -241,9 +239,7 @@ span {
     background-color: white;
     border: 2px solid #3debeb;
 }
-.wrapper{
-    overflow-y: auto;
-}
+
 }
 
 @media screen and (max-width: 321px) {
@@ -300,7 +296,7 @@ span {
 
     .main{
         padding-left: 5%;
-    }
+    }/*
     .main__button1 {
         display: none;
     }
@@ -315,11 +311,9 @@ span {
     }
     .main__button6 {
         display: none;
-    }
+    }*/
     .post{
         padding-left: 5%;
     }
-    .wrapper{
-        overflow-y: auto;
-    }
+    
     }
