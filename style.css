@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     background-color:rgb(238, 238, 241);
-    overflow: auto;
+    
 }
 .header__block1{
     display: flex;
@@ -98,24 +98,29 @@ h1 {
 
 .main .button{
     text-align: center;
+    
 }
 
 
 .button {
    padding: 0.5%;
    background-color: none;
-   border: none;
+   
    border-radius: 7px;
+   border: 2px solid;
+   border-color: transparent;
+
       
 }
 
 .main__button1{
     background-color: white;
-    border: 2px solid #3debeb;
+    border: 2px solid;
+    border-color: rgba(69, 241, 233, 0.925);
     
 }
 .button:hover {
-    border: 1px solid rgb(27, 13, 221);
+    border: 2px solid rgb(27, 13, 221);
     cursor: pointer;
 }
 
@@ -166,6 +171,9 @@ section img {
 .main__button6 {
     vertical-align: 50%;
     
+}
+.wrapper{
+    overflow-x: auto;
 }
 @media screen and (min-width: 769px) { /* скрываем блок до заданной ширины*/
     .header__block1 {
@@ -232,6 +240,9 @@ span {
 .main__button2{
     background-color: white;
     border: 2px solid #3debeb;
+}
+.wrapper{
+    overflow-y: auto;
 }
 }
 
@@ -307,5 +318,8 @@ span {
     }
     .post{
         padding-left: 5%;
+    }
+    .wrapper{
+        overflow-y: auto;
     }
     }
