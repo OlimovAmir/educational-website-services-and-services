@@ -67,23 +67,23 @@ h1 {
 } 
 
 
-.header__block2__button1 {
+.header__button9 {
     display: flex;
     margin-left: auto;
     padding: 2%;
     cursor: pointer;
 }
-.header__block2__button1 img {
+.header__button9 img {
     padding: 2%;
 }
 
-.header__block2__button2 {
+.header__button10 {
     display: flex;
     cursor: pointer;
     
 }
 
-.header__block2__button2 img {
+.header__button10 img {
     padding: 2%;
 }
  
@@ -195,11 +195,11 @@ section img {
 
 
 @media screen and (max-width: 769px) { /* отображаем блок посли заданной ширины*/
-   .header__block2__button1  img {
+   .header__button9  img {
        display: none;
    }
  
-   .header__block2__button2  img {
+   .header__button10  img {
     display: none;
 }
 .main{
